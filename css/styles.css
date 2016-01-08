@@ -13,6 +13,10 @@ body {
 	margin-top: 0px;
 }
 
+li#connect {
+	font-size: 25px;
+}
+
 .nav li a {
 	color: #222;
 }
@@ -35,7 +39,7 @@ body {
 
 .inform-2 {
 	height: 200px;
-	margin-left: -10px;
+	margin-left: -1%;
 	padding-top: 40px;
 	margin-top: 2%;	
 	box-shadow: 0px 0px 20px 5px gray;
@@ -90,10 +94,6 @@ img {
 	font-size: 20px;
 }
 
-.projex .container {	
-	box-shadow: 0px 0px 40px 15px teal;
-	height: 100%;
-}
 
 .projex .first-row {
 	border: 1px solid black;
@@ -116,3 +116,7 @@ a.btn-info {
 
 }
 
+.about .row {
+	border: 1px solid black;
+	border-bottom: 3px solid black;
+}
