@@ -24,8 +24,6 @@ body {
 #folio .container {
 	box-shadow: 0px 0px 40px 15px teal;
 	height: 100%;
-	margin-left: 5%;
-	margin-right: 5%;
 	margin-bottom: 0px;
 }
 
@@ -81,10 +79,10 @@ img {
 }
 
 .projex h4 {
+	width: 150px;
 	border: 1px solid black;
 	border-radius: 4px;
 	display: inline-block;
-	width: 200px;
 	background-color: #ADD8E6;
 }
 
@@ -97,7 +95,7 @@ img {
 	height: 100%;
 }
 
-.projex .row {
+.projex .first-row {
 	border: 1px solid black;
 	border-bottom: 3px solid black;
 }
@@ -111,7 +109,7 @@ footer {
 }
 
 a.btn-info {
-	width: 200px;
+	width: 150px;
 	display: inline-block;
 	margin: 1px;
 	box-shadow: 0px 0px 20px 5px gray;
