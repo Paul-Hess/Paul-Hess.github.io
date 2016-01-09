@@ -1,6 +1,10 @@
+/*set styles for entire page */
+
 body {
 	font-family: arial;
 }
+
+/* header styling */
 
 .page-header h1 {
 	text-align: center;
@@ -20,6 +24,7 @@ li#connect {
 .nav li a {
 	color: #222;
 }
+/* folio and children */
 
 #folio {
 	margin-bottom: 0px;
@@ -34,7 +39,6 @@ li#connect {
 .inform-1 {
 	margin-top: 8%;	
 	text-align: center;
-
 }
 
 .inform-2 {
@@ -66,6 +70,7 @@ img {
 	list-style: none;
 }
 
+/* projex and children */
 
 .projex {
 	margin-top: 5px;
@@ -94,18 +99,9 @@ img {
 	font-size: 20px;
 }
 
-
 .projex .first-row {
 	border: 1px solid black;
 	border-bottom: 3px solid black;
-}
-
-footer {
-	margin-bottom: 0px;
-	padding-bottom: 10px;
-	background-color: #222;
-	color: white;
-	
 }
 
 a.btn-info {
@@ -113,9 +109,9 @@ a.btn-info {
 	display: inline-block;
 	margin: 1px;
 	box-shadow: 0px 0px 20px 5px gray;
-
 }
 
+/* about */
 .about .row {
 	margin-left: 5px;
 	margin-right: 5px;	
@@ -126,4 +122,13 @@ a.btn-info {
 	border-radius: 12%;
 	box-shadow: 10px 5px 3px 3px;
 	margin-bottom: 10px;
+}
+
+/* footer */
+
+footer {
+	margin-bottom: 0px;
+	padding-bottom: 10px;
+	background-color: #222;
+	color: white;
 }
